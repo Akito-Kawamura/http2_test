@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Node.js デバッグ",
+            "type": "node",
+            "request": "launch",
+            "program": "${workspaceFolder}/index.js",
+            "args": [],
+            "runtimeExecutable": "${node}",
+            "env": {
+                "NODE_ENV": "development"
+            },
+            "sourceMaps": true
+        }
+    ]
+}
